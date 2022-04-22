@@ -1,0 +1,8 @@
+C:\git\FunStripeLite\FunStripeLite\bin\Debug\netstandard2.1\FunStripeLite.deps.json
+C:\git\FunStripeLite\FunStripeLite\bin\Debug\netstandard2.1\FunStripeLite.dll
+C:\git\FunStripeLite\FunStripeLite\bin\Debug\netstandard2.1\FunStripeLite.pdb
+C:\git\FunStripeLite\FunStripeLite\obj\Debug\netstandard2.1\FunStripeLite.fsproj.AssemblyReference.cache
+C:\git\FunStripeLite\FunStripeLite\obj\Debug\netstandard2.1\FunStripeLite.AssemblyInfoInputs.cache
+C:\git\FunStripeLite\FunStripeLite\obj\Debug\netstandard2.1\FunStripeLite.AssemblyInfo.fs
+C:\git\FunStripeLite\FunStripeLite\obj\Debug\netstandard2.1\FunStripeLite.dll
+C:\git\FunStripeLite\FunStripeLite\obj\Debug\netstandard2.1\FunStripeLite.pdb
