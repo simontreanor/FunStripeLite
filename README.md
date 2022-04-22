@@ -17,7 +17,7 @@ Open the StripeModel and StripeRequest modules.
 Here's an example of how to create a new payment method:
 
 ```F#
-let settings = RestApi.StripeApiSettings.New(apiKey = Config.StripeTestApiKey)
+let settings = RestApi.StripeApiSettings.New(apiKey = "<your Stripe API key>")
 
 let defaultCard =
     PaymentMethods.CreateCardCardDetailsParams.New(
