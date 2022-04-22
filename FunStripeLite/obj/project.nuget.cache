@@ -1,11 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "5GBJ5pyBSZwthzd4U3i36EEUFMlu0L7NVT59MdsM5FXjEiSmOUAZ7k4c+ZSLamBF/sJDHTl+UzJkQOg9PStf3g==",
+  "dgSpecHash": "CKW434SDjBlKGPHcK3ag6W4dHe0asEryh4STq4dIggOO6A0xl0cZlKY65uWxQAjZWlg1f6/4tXQnRgNpwhhw5w==",
   "success": true,
   "projectFilePath": "C:\\git\\FunStripeLite\\FunStripeLite\\FunStripeLite.fsproj",
   "expectedPackageFiles": [
     "C:\\Users\\SimonTreanor\\.nuget\\packages\\fsharp.core\\6.0.1\\fsharp.core.6.0.1.nupkg.sha512",
-    "C:\\Users\\SimonTreanor\\.nuget\\packages\\fsharp.data\\4.2.8\\fsharp.data.4.2.8.nupkg.sha512"
+    "C:\\Users\\SimonTreanor\\.nuget\\packages\\fsharp.data\\4.2.8\\fsharp.data.4.2.8.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\SimonTreanor\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
   ],
   "logs": []
 }
