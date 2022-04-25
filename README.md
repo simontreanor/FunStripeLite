@@ -1,6 +1,6 @@
 # FunStripeLite
 
-A lightweight F# 5.0 library to connect to the Stripe API.
+A lightweight F# library to connect to the Stripe API.
 
 ## Latest updates
 
