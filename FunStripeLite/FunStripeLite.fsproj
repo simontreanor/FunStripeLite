@@ -1,12 +1,12 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFrameworks>net6.0;net5.0;net472;netstandard2.1</TargetFrameworks>
+    <TargetFrameworks>net6.0;net472;netstandard2.1</TargetFrameworks>
     <GenerateProgramFile>false</GenerateProgramFile>
   </PropertyGroup>
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <PackageId>FunStripeLite</PackageId>
-    <Version>1.1.0</Version>
+    <Version>1.2.0</Version>
     <Authors>Simon Treanor</Authors>
     <Company>Fund Ourselves</Company>
     <PackageDescription>F# Lightweight Stripe Library</PackageDescription>
