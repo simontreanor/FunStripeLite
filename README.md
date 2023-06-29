@@ -4,6 +4,8 @@ A lightweight F# library to connect to the Stripe API.
 
 ## Latest updates
 
+2023-06-29: version 1.2.2 updates the package dependencies for FSharp.Core and FSharp.Data to 6.0.7 and 6.2.0 respectively.
+
 2022-11-22: version 1.2.0 updates the Stripe API from version 2022-08-01 to 2022-11-15, which contains some breaking changes. See the [Stripe API changelog](https://stripe.com/docs/upgrades#api-changelog) for details. As .NET 5 is out-of-support, this has been removed from the target frameworks.
 
 2022-10-05: version 1.1.0 updates the Stripe API from version 2020-08-27 to 2022-08-01, which contains some breaking changes. See the [Stripe API changelog](https://stripe.com/docs/upgrades#api-changelog) for details.
