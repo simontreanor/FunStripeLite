@@ -4,6 +4,8 @@ A lightweight F# library to connect to the Stripe API. Targets .NET Framework 4.
 
 ## Latest updates
 
+2023-10-13: version 1.3.2 provides a corrected serialise utility function.
+
 2023-10-13: version 1.3.1 restores a small number of utility functions that are not required by the library but are very useful for serialising Stripe objects.
 
 2023-10-13: version 1.3.0 fixes an issue with form serialisation that meant that JsonField names were only applied to the top level elements. It also tidies the code up a little.
