@@ -1,8 +1,10 @@
 # FunStripeLite
 
-A lightweight F# library to connect to the Stripe API.
+A lightweight F# library to connect to the Stripe API. Targets .NET Framework 4.7.2, .NET Standard 2.1  and .NET 6.
 
 ## Latest updates
+
+2023-10-13: version 1.3.0 fixes an issue with form serialisation that meant that JsonField names were only applied to the top level elements. It also tidies the code up a little.
 
 2023-08-29: version 1.2.3 updates the Stripe API from version 2022-11-15 to 2023-08-16, which contains some breaking changes. See the [Stripe API changelog](https://stripe.com/docs/upgrades#api-changelog) for details.
 
