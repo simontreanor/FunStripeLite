@@ -95,11 +95,15 @@ module Util =
 
     //following functions are not required by the library but are useful utilities:
 
-    ///Serialise F# class
-    let serialise<'a> (parameters:'a) =
-        typeof<'a>.GetProperties()
-        |> Seq.collect (fun pi -> format config pi parameters)
-
+   ///Convert F# objects to JSON strings
+    let serialise data =
+        let json = Json.Core.serialize config (data.GetType()) data
+        let saveOptions =
+            match config.Unformatted with
+            | true -> JsonSaveOptions.DisableFormatting
+            | false -> JsonSaveOptions.None
+        json.ToString(saveOptions)
+        
     let getUnionCaseFromString<'a> (value: string) =
         typeof<'a>.UnderlyingSystemType.GetProperties()
         |> Array.map(fun pi ->
@@ -120,4 +124,3 @@ module Util =
         s
         |> Option.bind getUnionCaseFromString<'a>
         |> Option.defaultValue defaultValue
-
