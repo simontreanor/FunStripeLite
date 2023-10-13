@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26124.0
 MinimumVisualStudioVersion = 15.0.26124.0
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "FunStripeLite", "FunStripeLite\FunStripeLite.fsproj", "{7A999174-0FE6-4840-8820-CD07CC599D54}"
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "FunStripeLite", "src\FunStripeLite.fsproj", "{7A999174-0FE6-4840-8820-CD07CC599D54}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
