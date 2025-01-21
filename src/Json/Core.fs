@@ -357,10 +357,10 @@ module internal Core =
                     | _ -> failDeserialization path <| sprintf "Not supported type: %s" t.Name
                 transformFromTargetType jsonField.Transform jvalue
 
-        let deserializeUnwrapOption (path: JsonPath) (t: Type) (jsonField: JsonField) (jvalue: JsonValue option): obj =
+        let deserializeUnwrapOption (path: JsonPath) (t: Type) (jsonField: JsonField) (jvalueOpt: JsonValue option): obj =
             match t with
             | t when isOption t ->
-                match jvalue with
+                match jvalueOpt with
                 | Some jvalue ->
                     match jvalue with
                     | JsonValue.Null -> optionNone t
@@ -372,7 +372,7 @@ module internal Core =
                     | AllowOmit ->
                         optionNone t
             | _ ->
-                match jvalue with
+                match jvalueOpt with
                 | Some jvalue ->
                     deserializeNonOption path t jsonField jvalue
                 | None ->
